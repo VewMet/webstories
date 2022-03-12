@@ -90,4 +90,8 @@ it will open a set of web stories as a carousel. The hash path #n (like #3 in th
 
 ### Caveat:
 
-even though it works, the stories page is jittery in the initialization. in mobile, it gets stuck sometimes while switching from one story to the next. it is better to store the carousel as pure amp page instead of nextjs page. depends on the decision maker!
+even though it works, the stories page is jittery in the initialization. in mobile, it gets stuck sometimes while switching from one story to the next. it is better to store the carousel as pure amp page instead of nextjs page.
+
+to compare, run the carousel.html file in this repo. the pure amp page carousel is much smoother. You can put this file in public folder of nextjs app to make it accessible. 
+
+depends on the decision maker!
